@@ -33,3 +33,4 @@ test = TestCase.new(whichBrowser)
 test.testCase1(test.driver,test.wait,whatKeyword)
 test.testCase2(test.driver,test.wait,whatKeyword)
 test.testCase3(test.driver,test.wait)
+test.teardown

@@ -1,3 +1,6 @@
+# Currently not used file
+# Instead all browser configuration is within baseTest.rb class
+
 require "selenium-webdriver"
 
 class BrowserConfig

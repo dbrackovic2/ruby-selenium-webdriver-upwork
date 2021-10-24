@@ -1,3 +1,6 @@
+# This is the initial file I started with, so as you can see it has everything in a single file
+# However this is not used for running tests, rather use test_case.rb file
+
 require "selenium-webdriver"
 
 driverFF = Selenium::WebDriver.for :firefox

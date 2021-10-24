@@ -1,3 +1,6 @@
+# Class to hold future assertion utility
+# Currently not used yet
+
 class AssertUtil
 
   def verifyStringContains(target,text)
