@@ -9,7 +9,7 @@ class BaseTest
       @driver = Selenium::WebDriver.for :firefox
     end
 
-    #@driver.manage.window.maximize
+    @driver.manage.window.maximize
     @driver.get("https://www.upwork.com")
     @wait = Selenium::WebDriver::Wait.new(timeout: 50)
   end
