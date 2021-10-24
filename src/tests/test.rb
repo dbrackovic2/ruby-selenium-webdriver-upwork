@@ -34,7 +34,7 @@ if title.downcase().count("ruby") > 0 || description.downcase().count("ruby") > 
   puts "freelancer " + driverFF.find_element(css: 'div.identity-name').text + " knows ruby"
 end
 
-driverFF.find_element(css: "p.freelancer-title strong").click
+driverFF.find_element(css: "p.freelancer-title").click
 profileTitle = driverFF.find_element(xpath: '(//section[contains(@class,"up-card-section")])[7]//h2').text
 if profileTitle.downcase() == title.downcase()
   puts "freelancer " + driverFF.find_element(css: 'div.identity-name').text + " profile title matches"
