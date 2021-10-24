@@ -8,7 +8,7 @@ Automated tests for Upwork.com using Ruby + SeleniumWebdriver.
 
 ## How to check if browser drivers are in PATH
 ```
-$chromedriver --version
+$ chromedriver --version
 ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204})
 $ geckodriver --version
 geckodriver 0.30.0 (d372710b98a6 2021-09-16 10:29 +0300)
