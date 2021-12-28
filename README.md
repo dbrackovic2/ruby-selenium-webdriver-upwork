@@ -1,5 +1,5 @@
 ### Ruby automation testing framework for Upwork task 2
-Automated tests for Upwork.com using Ruby + SeleniumWebdriver.
+Automated tests that compare 2 search engine results using Ruby + SeleniumWebdriver.
 
 ## Prerequisites
 - ruby installed
