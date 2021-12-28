@@ -1,4 +1,4 @@
-### Ruby automation testing framework for Upwork
+### Ruby automation testing framework for Upwork task 2
 Automated tests for Upwork.com using Ruby + SeleniumWebdriver.
 
 ## Prerequisites
@@ -23,17 +23,15 @@ Test accepts two parameters:
 1. driver - needs to be either "chrome" or "firefox"
 2. keyword - can be whatever
 
-Run tests in chrome with keyword ruby:
-```
-ruby src/tests/test_case.rb "chrome" "ruby"
-```
 Run tests in firefox with keyword c#:
 ```
-ruby src/tests/test_case.rb "firefox" "c#"
+ruby src/tests/test_case.rb_2 "firefox" "ruby"
+```
+
+Run tests in chrome with keyword ruby:
+```
+ruby src/tests/test_case_2.rb "chrome" "ruby"
 ```
 
 ## NOTE
-I had much difficulty with recaptcha, I wasn't able to bypass it at all, even after submitting successful recaptcha verification multiple times, it kept coming back.
-Therefore I wasn't able to debug the last steps of the test case.
-I tried tricking recaptcha with VPN or different browser size but no success.
-Good luck checking my project :)
+

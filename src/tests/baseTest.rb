@@ -1,3 +1,4 @@
+require_relative "../configs/testConfig.rb"
 require "selenium-webdriver"
 
 class BaseTest
@@ -10,7 +11,7 @@ class BaseTest
     end
 
     @driver.manage.window.maximize
-    @driver.get("https://www.upwork.com")
+    @driver.manage.delete_all_cookies
     @wait = Selenium::WebDriver::Wait.new(timeout: 50)
   end
 
